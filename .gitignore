@@ -112,6 +112,7 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+quant_JS_env/
 
 # Spyder project settings
 .spyderproject

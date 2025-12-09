@@ -11,7 +11,7 @@ df["date"] = pd.to_datetime(df["date"])
 regions = sorted(df["region"].unique())
 
 app.layout = html.Div(className="container", children=[
-    html.H1("Sales data for Pink Morsels", className="title"),
+    html.H1("Sales data for Pink Morsels", className="title",id="title-header"),
 
     html.P("A cool dashboard to show the sales of Pink Morsels for Soul Foods.",
            className="subtitle"),
